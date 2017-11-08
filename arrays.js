@@ -4,7 +4,3 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 function addElementToBeginningOfArray (chocolateBars, mnm){
   return [mnm, ...chocolateBars]
 }
-function addElementToBeginningOfArray (chocolateBars, mnm){
-  chocolateBars.unshift (mnm)
-  return chocolateBars
-}
