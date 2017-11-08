@@ -5,5 +5,5 @@ function addElementToBeginningOfArray (chocolateBars, mnm){
   return [mnm, ...chocolateBars]
 }
 function addElementToBeginningOfArray (chocolateBars, mnm){
-  return chocolateBars.push (mnm)
+  return chocolateBars.unshift (mnm)
 }
